@@ -1722,21 +1722,6 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
 
 [[package]]
-name = "pdf2image"
-version = "1.16.3"
-description = "A wrapper around the pdftoppm and pdftocairo command line tools to convert PDF to a PIL Image list."
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "pdf2image-1.16.3-py3-none-any.whl", hash = "sha256:b6154164af3677211c22cbb38b2bd778b43aca02758e962fe1e231f6d3b0e380"},
-    {file = "pdf2image-1.16.3.tar.gz", hash = "sha256:74208810c2cef4d9e347769b8e62a52303982ddb4f2dfd744c7ab4b940ae287e"},
-]
-
-[package.dependencies]
-pillow = "*"
-
-[[package]]
 name = "pexpect"
 version = "4.8.0"
 description = "Pexpect allows easy control of interactive console applications."
@@ -2757,4 +2742,8 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
+<<<<<<< HEAD
 content-hash = "afe583659d1009406f45a1f35f9743ee5c20121399fd30447aa0b514ce5b5316"
+=======
+content-hash = "1cdae224fcabf234f4632ee26dd5b773b29385e0769d293ad1a73c8d08e2563e"
+>>>>>>> 09dcdc0e0799bb0eeeeb70cc52dbe8d32e1cb395
